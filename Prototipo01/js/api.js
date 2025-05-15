@@ -53,3 +53,12 @@ async function getCharacterById(characterId) {
     console.log(error);
   }
 }
+
+async function getCharacterByName(name) {
+  try {
+    const result = await api.get(`/character/?name=${name}`);
+    return result.data;
+  } catch (error) {
+    console.log(error);
+  }
+}
