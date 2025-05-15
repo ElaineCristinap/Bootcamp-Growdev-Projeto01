@@ -59,7 +59,7 @@ function renderCardCharacter(character) {
                     </p>
                     <p class="card-text">
                         <small class="text-secondary">Visto a última vez em:</small><br>
-                        <small>${character.episode.name}>
+                        <small>${character.episode.name}</small>
                     </p>
                 </div>
             </div>
